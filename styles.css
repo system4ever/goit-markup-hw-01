@@ -136,7 +136,9 @@ color: var(--IRIS, #4D5AE5);
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-.advantages-list {}
+.advantages-list {
+    background-color: #FFFFFF;
+}
 
 .advantages-list-item {}
 
