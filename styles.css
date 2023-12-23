@@ -33,7 +33,7 @@ color: var(--IRIS, #4D5AE5);
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
-    letter-spacing: -0.03em;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 .header-logo:hover,
@@ -68,7 +68,10 @@ color: var(--IRIS, #4D5AE5);
         font-size: 16px;
         line-height: 1.50;
         letter-spacing: 0.02em;
-        font-style: normal;
+
+}
+.header-address-link {
+    font-style: normal;
 }
 .header-address-link:hover,
 .header-address-link:active,
@@ -117,7 +120,7 @@ color: var(--IRIS, #4D5AE5);
 
 /*-------------Advantages---------------*/
 .advantages {
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
 }
 
 .visually-hidden {
@@ -196,7 +199,7 @@ color: var(--IRIS, #4D5AE5);
 /*-------------Our Portfolio---------------*/
 
 .our-portfolio {
-    background: #FFF;
+    background-color: #FFFFFF
 }
 
 .portfolio-title {
