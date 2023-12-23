@@ -1,15 +1,17 @@
 body {
+    color: #434455;
+    background-color: #FFF;
     font-family: 'Roboto', sans-serif;
 }
 
-.web-blue {
-    color: var(--IRIS, #4D5AE5);
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: -0.03em;
-    text-transform: uppercase;
+.studio-black {
+    color: var(--NAVY-BLUE, #2E2F42);
+        font-family: "Raleway", sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
 }
 
 a {
@@ -26,14 +28,20 @@ header {}
 .header-navigation {}
 
 .header-logo {
-    color: var(--NAVY-BLUE, #2E2F42);
-    font-family: Raleway;
+color: var(--IRIS, #4D5AE5);
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
-    letter-spacing: 0.03em;
+    letter-spacing: -0.03em;
     text-transform: uppercase;
 }
+.header-logo:hover,
+.header-logo:active,
+.header-logo:focus {
+    color: #404bbf;
+}
+
 
 .headr-menu-list {}
 
@@ -47,7 +55,7 @@ header {}
         letter-spacing: 0.02em;
 }
 .header-link:hover, .header-link:active, .header-link:focus {
-    color: var(--IRIS, #4D5AE5);
+    color: var(--IRIS, #404bbf);
 }
 .header-address {}
 
@@ -61,6 +69,11 @@ header {}
         line-height: 1.50;
         letter-spacing: 0.02em;
         font-style: normal;
+}
+.header-address-link:hover,
+.header-address-link:active,
+.header-address-link:focus {
+    color: var(--IRIS, #404bbf);
 }
 
 /*----------------------------------*/
@@ -84,6 +97,7 @@ header {}
 
 .hero-button {
         border-radius: 4px;
+        color: #ffffff;
         background: var(--IRIS, #4D5AE5);
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
         font-family: inherit;
@@ -103,6 +117,7 @@ header {}
 
 /*-------------Advantages---------------*/
 .advantages {
+    background-color: #FFFFFF
 }
 
 .visually-hidden {
@@ -223,7 +238,7 @@ header {}
 }
 
 .footer-link {
-    color: var(--CLOUD, #F4F4FD);
+    color: #4d5ae5;
         font-family: 'Raleway', sans-serif;
         font-size: 18px;
         font-weight: 700;
@@ -238,4 +253,15 @@ header {}
         line-height: 1.50;
         letter-spacing: 0.02em;
 }
+
+.studio-black-footer {
+    color: #f4f4fd;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
 /*----------------------------------*/
