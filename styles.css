@@ -4,10 +4,10 @@ body {
 
 .web-blue {
     color: var(--IRIS, #4D5AE5);
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1,17;
+    line-height: 1.17;
     letter-spacing: -0.03em;
     text-transform: uppercase;
 }
@@ -30,8 +30,8 @@ header {}
     font-family: Raleway;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1,17;
-    letter-spacing: -0.03em;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
@@ -43,10 +43,10 @@ header {}
     color: var(--NAVY-BLUE, #2E2F42);
         font-size: 16px;
         font-weight: 500;
-        line-height: 1,50;
-        letter-spacing: -0.02em;
+        line-height: 1.50;
+        letter-spacing: 0.02em;
 }
-.header-link:hover {
+.header-link:hover, .header-link:active, .header-link:focus {
     color: var(--IRIS, #4D5AE5);
 }
 .header-address {}
@@ -58,8 +58,8 @@ header {}
 .header-address-link {
     color: var(--SLATE, #434455);
         font-size: 16px;
-        line-height: 1,50;
-        letter-spacing: -0.02em;
+        line-height: 1.50;
+        letter-spacing: 0.02em;
         font-style: normal;
 }
 
@@ -79,23 +79,30 @@ header {}
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
-    letter-spacing: -0.02em;
+    letter-spacing: 0.02em;
 }
 
 .hero-button {
-    color: var(--WHITE, #FFF);
+        border-radius: 4px;
+        background: var(--IRIS, #4D5AE5);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
         font-family: inherit;
         font-size: 16px;
         font-weight: 500;
         line-height: 1.50;
-        letter-spacing: -0.04em;
-}
+        letter-spacing: 0.04em;
+        cursor: pointer;
 
+}
+.hero-button:hover,
+.hero-button:active,
+.hero-button:focus {
+    background-color: var(--IRIS, #404BBF);
+}
 /*----------------------------------*/
 
 /*-------------Advantages---------------*/
 .advantages {
-    background: #FFF;
 }
 
 .visually-hidden {
@@ -120,14 +127,14 @@ header {}
         font-size: 20px;
         font-weight: 500;
         line-height: 1.20;
-        letter-spacing: -0.02em;
+        letter-spacing: 0.02em;
 }
 
 .advantages-text {
     color: var(--SLATE, #434455);
         font-size: 16px;
         line-height: 1.50;
-        letter-spacing: -0.02em;
+        letter-spacing: 0.02em;
 }
 
 /*----------------------------------*/
@@ -144,7 +151,7 @@ header {}
         font-size: 36px;
         font-weight: 700;
         line-height: 1.11;
-        letter-spacing: -0.02em;
+        letter-spacing: 0.02em;
         text-transform: capitalize;
 }
 
@@ -159,7 +166,7 @@ header {}
     font-size: 20px;
     font-weight: 500;
     line-height: 1.20;
-    letter-spacing: -0.02em;
+    letter-spacing: 0.02em;
 }
 
 .team-job {
@@ -167,7 +174,7 @@ header {}
         text-align: center;
         font-size: 16px;
         line-height: 1.50;
-        letter-spacing: -0.02em;
+        letter-spacing: 0.02em;
 }
 /*----------------------------------*/
 
@@ -183,7 +190,7 @@ header {}
         font-size: 36px;
         font-weight: 700;
         line-height: 1.11;
-        letter-spacing: -0.02em;
+        letter-spacing: 0.02em;
         text-transform: capitalize;
 }
 
@@ -198,14 +205,14 @@ header {}
         font-size: 20px;
         font-weight: 500;
         line-height: 1.20;
-        letter-spacing: -0.02em;
+        letter-spacing: 0.02em;
 }
 
 .portfolio-text {
     color: var(--SLATE, #434455);
         font-size: 16px;
         line-height: 1.50;
-        letter-spacing: -0.02em;
+        letter-spacing: 0.02em;
 }
 /*----------------------------------*/
 
@@ -217,11 +224,11 @@ header {}
 
 .footer-link {
     color: var(--CLOUD, #F4F4FD);
-        font-family: Raleway;
+        font-family: 'Raleway', sans-serif;
         font-size: 18px;
         font-weight: 700;
-        line-height: 1, 17;
-        letter-spacing: -0.03em;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
         text-transform: uppercase;
 }
 
@@ -229,6 +236,6 @@ header {}
     color: var(--CLOUD, #F4F4FD);
         font-size: 16px;
         line-height: 1.50;
-        letter-spacing: -0.02em;
+        letter-spacing: 0.02em;
 }
 /*----------------------------------*/
