@@ -21,7 +21,6 @@ a {
 ul {
     list-style: none;
 }
-/*-------------HEADER---------------*/
 
 .header-logo {
 color: var(--IRIS, #4D5AE5);
@@ -65,9 +64,6 @@ color: var(--IRIS, #4D5AE5);
     color: var(--IRIS, #404bbf);
 }
 
-/*----------------------------------*/
-
-/*-------------HERO---------------*/
 
 .hero-section {
     background: var(--NAVY-BLUE, #2E2F42);
@@ -100,9 +96,7 @@ color: var(--IRIS, #4D5AE5);
 .hero-button:focus {
     background-color: var(--IRIS, #404BBF);
 }
-/*----------------------------------*/
 
-/*-------------Advantages---------------*/
 .advantages {
     background-color: #FFFFFF;
 }
@@ -139,10 +133,6 @@ color: var(--IRIS, #4D5AE5);
         letter-spacing: 0.02em;
 }
 
-/*----------------------------------*/
-
-/*-------------Our Team---------------*/
-
 .our-team {
     background: var(--CLOUD, #F4F4FD);
 }
@@ -176,9 +166,6 @@ color: var(--IRIS, #4D5AE5);
         line-height: 1.50;
         letter-spacing: 0.02em;
 }
-/*----------------------------------*/
-
-/*-------------Our Portfolio---------------*/
 
 .our-portfolio {
     background-color: #FFFFFF
@@ -208,9 +195,7 @@ color: var(--IRIS, #4D5AE5);
         line-height: 1.50;
         letter-spacing: 0.02em;
 }
-/*----------------------------------*/
 
-/*-------------FOOTER---------------*/
 
 .footer {
     background: var(--NAVY-BLUE, #2E2F42);
@@ -243,4 +228,3 @@ color: var(--IRIS, #4D5AE5);
     text-transform: uppercase;
 }
 
-/*----------------------------------*/
