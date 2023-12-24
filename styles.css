@@ -56,8 +56,8 @@ color: var(--IRIS, #4D5AE5);
         letter-spacing: 0.02em;
 
 }
-.header-address {
-    font-style: normal;
+
+  address {font-style: normal;
 }
 .header-address:hover,
 .header-address:active,
