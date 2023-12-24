@@ -49,19 +49,19 @@ color: var(--IRIS, #4D5AE5);
     color: var(--IRIS, #404bbf);
 }
 
-.header-address-link {
+.header-address {
     color: var(--SLATE, #434455);
         font-size: 16px;
         line-height: 1.50;
         letter-spacing: 0.02em;
 
 }
-.header-address-link {
+.header-address {
     font-style: normal;
 }
-.header-address-link:hover,
-.header-address-link:active,
-.header-address-link:focus {
+.header-address:hover,
+.header-address:active,
+.header-address:focus {
     color: var(--IRIS, #404bbf);
 }
 
